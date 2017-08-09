@@ -9,50 +9,65 @@ and open the template in the editor.
 */
 html, body{
     width: 100%;
-    height: 100%;
+    height: 105%;
     margin: 0;
-    background: #009688;
-        font-family: sans-serif;
+    background: #00797e;
+    font-family: sans-serif;
 }
 header{
-    width: 100%;
-    height: 10%;
-    background:linear-gradient(#59dc95,#009644,black);
+    float: left;
+    width: 10%;
+    height: 100%;
+    background:linear-gradient(#191e34,#0e4c57,black);
 }
 
 nav{
-    width: 10%;
+       width: 100%;
+    height: 6%;
     background: #040404;
     margin-top: 2.8%;
 }
 .title{
     width: 100%;
-    height: 60%;
+    height: 5%;
 }
 
 .menu{
     width: 100%;
-    height: 40%;
+    height: 98%;
 }
 
 .menu ul{
-    width: 100%;
-    padding-left: 16%;
+        width: 100%;
+    height: 100%;
+    padding-left: 0;
+    margin: 0;
 }
 
 .menu ul li{
+   border-top: solid 1px #0e4c57;
     list-style-type: none;
-    /*float: left;*/
+    /* float: left; */
     width: 100%;
-    margin-left: 2%;
+    height: 50%;
+    margin-left: 0;
 }
+
+.link{
+     width: 100%;
+    height: 100%;
+}
+
+
 .content{
-    margin: 5% auto;
+    margin: 8% 15%;
     width: 60%;
     height: 70%;
     background: white;
     font-family: sans-serif;
     font-weight: 700;
+    border-radius: 10px;
+    float: left;
 }
 
 section{
@@ -93,10 +108,11 @@ section{
     width: 100%;
     margin: 0 auto;
     height: 100%;
+    font-weight: 700;
 }
 
 .boton:hover{
     background-color: #0e690e;
     color: white;
-
+    font-weight: 700;
 }
